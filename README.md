@@ -81,15 +81,19 @@ One important aspect of A/B testing is ensuring that traffic is **evenly distrib
 
 A visualization of user distribution confirmed that the experiment groups contain a similar number of users.
 
+![User Distribution](./group%20distribution.png)
+
 ### • Conversion Rate Comparison
 
 The conversion rate represents the **percentage of users who completed a purchase**. By comparing the conversion rates of the control and treatment groups, it is possible to observe whether the new recommendation system leads to higher user engagement and purchasing behavior.
+
+![Conversion Rate](./conversion%20rate.png)
 
 ### • Conversion Over Time
 
 Analyzing conversions over time helps verify whether the experiment remained stable throughout the testing period and whether external factors may have influenced the results.
 
-Time-based visualizations allow the identification of trends, fluctuations, or anomalies during the experiment.
+![Daily Conversion Rate](./daily%20conversion%20rate.png)
 
 ## Hypothesis Testing
 
@@ -179,13 +183,11 @@ These findings suggest that the recommendation system did not produce a measurab
 
 ## Project Structure
 ab-testing-ecommerce
-│
-├── notebook
-│   └── ab_testing_analysis.ipynb
-│
-├── data
-│   └── ab_data.csv
-│
+├── a-b-testing-e-commerce.ipynb
+├── conversion rate.png
+├── daily conversion rate.png
+├── group distribution.png
+├── ab_data.csv
 ├── README.md
 └── requirements.txt
 
