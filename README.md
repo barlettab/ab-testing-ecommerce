@@ -1,6 +1,6 @@
 # A/B Testing for E-commerce Recommendation
 
-![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Python](https://img.shields.io/badge/Python-3.12.4-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange)
 ![Plotly](https://img.shields.io/badge/Plotly-Visualization-purple)
 ![Statsmodels](https://img.shields.io/badge/Statsmodels-Statistical%20Testing-green)
